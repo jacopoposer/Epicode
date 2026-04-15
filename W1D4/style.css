@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #222f3e;
+}
+
+.topbar img{
+    width: 10%;
+    margin-left: 15px;
+}
+.navbar{
+     background-color: #354758;
+     text-color: white;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 0 3px;
+    margin-left: 1%;
+}
+
+body{
+    font-family: helvetica;
+    background-color:#eaeded;
+}
+
+.Giftbar{
+    background-color:#f56600;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.Giftbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.giftImage{
+    position: absolute;
+    background-image: url("./assets/bg-image.png"); 
+}
+
+.giftImage p {
+    position: relative;
+    font-weight: bold;
+    color: white;
+}
+
+.giftImage span{
+    font-weight: normal;
+    color: white;
+}
