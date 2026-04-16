@@ -1,57 +1,134 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-.header{
+.header {
     background-color: #222f3e;
 }
 
-.topbar img{
+.topbar img {
     width: 10%;
     margin-left: 15px;
 }
-.navbar{
-     background-color: #354758;
-     text-color: white;
+
+.navbar {
+    background-color: #354758;
+
+    color: white;
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-decoration: none;
     padding: 0 3px;
     margin-left: 1%;
 }
 
-body{
+body {
     font-family: helvetica;
-    background-color:#eaeded;
+    background-color: #eaeded;
+
 }
 
-.Giftbar{
-    background-color:#f56600;
+.Giftbar {
+    background-color: #f56600;
     text-align: center;
     margin: 20px;
     padding: 5px;
 }
 
-.Giftbar a{
+.Giftbar a {
     color: white;
     text-decoration: none;
 }
 
-.giftImage{
-    position: absolute;
-    background-image: url("./assets/bg-image.png"); 
+.giftImage {
+    background-image: url("./assets/bg-image.png");
+    text-align: center;
+    height: 150px;
+    margin: 20px;
+    padding-top: 50px;
 }
 
-.giftImage p {
-    position: relative;
+.giftImage h1 {
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.giftImage h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.showcase {
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.title {
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    
+}
+
+.subtitle {
+    font-weight: 600;
+    color: #007185;
+    margin-left: 1rem;
+}
+
+.showcase img {
+    width: 304px;
+    height: 379px;
+    object-fit: cover;
+    margin: 1rem;
+    border-radius: 20px;
+
+}
+
+
+.link {
+    font-weight: 600;
+    color: #007185;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.figure {
+    text-align: center;
+    margin: 50px 20px;
+    height: 400px;
+}
+.figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.footer{
+    background-color: #222f3e;
+    color: white;
+    text-align: center;
+    height: 200px;
+
+}
+
+.footer img{
+    width: 10%;
+    margin-top: 5%;
+    margin-left: 15px;
+}
+.footer a {
+    color: white;
     font-weight: bold;
-    color: white;
 }
 
-.giftImage span{
-    font-weight: normal;
-    color: white;
+.bottombar{
+    background-color: #354758;
+    padding: 10px;
 }
