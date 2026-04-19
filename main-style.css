@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#main {
+    padding: 0px 120px;
+    display: flex;
+}
+
+/* Inizio gestione css del content */
+.content {
+    padding: 80px 80px 0px 0px;
+    border-right: 1px solid #e6e6e6;
+}
+
+.content-top {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+
+.content-top button {
+    color: #757575;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 16px;
+
+}
+
+.content-top .selected {
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 16px;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 240px;
+    height: 140px;
+}
+
+.card-body {
+    padding: 10px 10px 10px 0px;
+    width: 100%;
+}
+
+
+.card-body img {
+    height: 20px;
+    width: 20px;
+    border-radius: 4px;
+}
+
+.bold-text {
+    font-weight: bold;
+    display: inline;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+
+.bold-text span {
+    font-weight: normal;
+}
+
+.card-body h2 {
+    margin-top: 10px;
+}
+
+.card h3 {
+    font-weight: normal;
+    color: #757575;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    color: #757575;
+    margin-top: 8px;
+}
+
+.card-bottom ion-icon {
+    margin-right: 3px;
+    height: 21px;
+    width: 21px;
+
+}
+
+.card-bottom span {
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    padding: 6px;
+}
+
+
+
+
+/* Inizio gestione css dell'aside */
+
+
+#aside {
+    width: 30%;
+    padding: 60px;
+    padding-right: 0px;
+    position: relative;
+}
+
+/* Blocco 1 dell'aside */
+
+
+.medium-twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 200px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
+
+.mt-logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mt-logos img {
+    height: 25px;
+    width: 25px;
+}
+
+.medium-twitter button {
+    background-color: transparent;
+    border-radius: 25px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    border: 1px solid #757575;
+
+}
+
+.medium-twitter button img {
+    height: 25px;
+    width: 25px;
+    margin-right: 8px;
+}
+
+.medium-twitter p{
+    font-size: 14px;
+    color: #413e3e;
+}
+
+.medium-twitter a{
+    font-size: 10px;
+    text-decoration: underline;
+    color: #757575;
+}
+
+/* Blocco 2 dell'aside*/
+
+.topics{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.topics h4{
+    font-weight: bold;
+}
+
+.topics-buttons button{
+    background: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    margin-top: 8px;
+    padding: 10px;
+    color: #413e3e;
+}
+
+/* Blocco 3 dell'aside*/
+
+.follow{
+    margin-top: 30px;
+}
+
+.card-follow{
+    display: flex;
+    margin-top: 15px;
+}
+
+.card-follow img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+
+}
+
+.card-follow .name-description{
+    margin-right: 15px;
+}
+
+.name-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 120px;
+    min-width: 120px;
+}
+
+.name-description h4{
+    font-size: 15px;;
+    font-weight: bold;
+}
+
+.name-description p{
+    color: #757575;
+    font-size: 12px;
+}
+
+.card-follow button{
+    background: transparent;
+    border-radius: 30px;
+    width: 80px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+
+/* Blocco 4 dell'aside*/
+
+.saved{
+    margin-top: 45px;
+}
+
+.saved .card-body{
+    margin: 15px 0px;
+    
+}
+.saved .card-body h2{
+    font-size: 20px;
+
+}
+
+.saved .card-body .card-bottom {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.saved .card-body .card-bottom p{
+    margin-right: 5px;
+}
+
+.saved .card-body .card-bottom ion-icon{
+    width: 12px;
+    height: 12px;
+}
+
+.saved a{
+    color: #95c490;
+    margin-top: 150px;
+
+}
+
+/* Blocco 5 dell'aside*/
+
+#footer{
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+#footer a{
+    margin: 8px 12px 0px 0px;
+    color: #757575;
+}
+
