@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0px 120px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+#header img{
+    height: 100%;
+    width: 150px;
+}
+
+.header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 60%;
+}
+
+.membership{
+    border: 1px solid #757575;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: white;
+}
+
+.account{
+    background-color: #f4511e;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    padding: 8px;
+    border: none;
+    font-size: 20px;
+}
+
+.header-right ion-icon{
+    color: #757575;
+}
